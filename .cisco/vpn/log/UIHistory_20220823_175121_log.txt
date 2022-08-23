@@ -1,0 +1,179 @@
+<acguiNotice module="com.cisco.anyconnect.presentation.vpn" type="update" tag="stat_update" timestamp="8/23/2022 5:51:21 PM">
+	<label id="simple_substatus_left" value="01:29:25 (13 Hours 30 Minutes Remaining)"/>
+	<label id="simple_substatus_right" value="IPv4"/>
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_connection_info">
+			<listrowcolumn label="Connection Information"/>
+			<listrow id="id_stat_state">
+				<listrowcolumn label="State:"/>
+				<listrowcolumn label="Connected"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Tunnel Mode (IPv4):"/>
+				<listrowcolumn label="Split Exclude"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Tunnel Mode (IPv6):"/>
+				<listrowcolumn label="Drop All Traffic"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_exc">
+				<listrowcolumn label="Dynamic Tunnel Exclusion:"/>
+				<listrowcolumn label="CGAPACMG.CLOUDAPP.Net adl.windows.com ajax.aspnetcdn.com aka.ms amp.azure.net api.momindum.com broadcast.skype.combrowser.pipe.aria.microsoft.com capgemini-my.sharepoint.com capgemini.sharepoint.com cgamecmg.blob.co.windows.net cgamecmg.cloudapp.net cgapacmg.blob.core.windows.net cgeurcmg.blob.core.windows.net cgeurcmg.cloudapp.net compass-s.microsoft.com compass-ssl.microsoft.com dl.delivery.mp.microsoft.com download.microsoft.com download.windowsupdate.com ggpht.com gitfreeware01.blob.core.windows.net googlevideo.com hlbpr-52dd2-0.edgecastdns.net infra.lync.com keydelivery.mediaservices.windows.net lync.com mlccdn.blob.core.windows.net mlccdnprod.azureedge.net momindum-cdn.akamaized.net momindum-lh.akamaihd.net msecnd.net msedge.net mstea.ms omindum-vh.akamaihd.net pipe.skype.com seaming.mediaservices.windows.net secure.skypeassets.com servicecentral.capgemini.com sfbassets.com skype.com skypeforbusiness.com skypemaprdsitus.trafficmanager.net statics.teams.microsoft.comhivestreaming.com streamg.mediaservices.windows.net streaming.mediaservices.windows.net teams.microsoft.com tenor.com update.microsoft.com update.microsoft.com.nsatc.net users.storage.live.com videoplayercdn.osi.office.net windowsupdate.microsoft.com windowsupdate.redir.update.microsoft.com.nsa.net youtube.com ytimg.com"/>
+			</listrow>
+			<listrow id="id_tunnel_dyn_inc">
+				<listrowcolumn label="Dynamic Tunnel Inclusion:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Duration:"/>
+				<listrowcolumn label="01:29:25"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect:"/>
+				<listrowcolumn label="13 Hours 30 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_stat_mgmt_tun_state">
+				<listrowcolumn label="Management Connection State:"/>
+				<listrowcolumn label="Disconnected (user tunnel active)"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_addr_info">
+			<listrowcolumn label="Address Information"/>
+			<listrow id="id_client_addr_ipv4">
+				<listrowcolumn label="Client (IPv4):"/>
+				<listrowcolumn label="10.117.19.175"/>
+			</listrow>
+			<listrow id="id_client_addr_ipv6">
+				<listrowcolumn label="Client (IPv6):"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server:"/>
+				<listrowcolumn label="204.153.60.23"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_bytes">
+			<listrowcolumn label="Bytes"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="34213268"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="115987738"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_frames">
+			<listrowcolumn label="Frames"/>
+			<listrow id="id_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="119357"/>
+			</listrow>
+			<listrow id="id_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="124075"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_ctrl_frames">
+			<listrowcolumn label="Control Frames"/>
+			<listrow id="id_ctrl_frames_sent">
+				<listrowcolumn label="Sent:"/>
+				<listrowcolumn label="363"/>
+			</listrow>
+			<listrow id="id_ctrl_frames_recv">
+				<listrowcolumn label="Received:"/>
+				<listrowcolumn label="185"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_client_mgmt">
+			<listrowcolumn label="Client Management"/>
+			<listrow id="id_admin_domain">
+				<listrowcolumn label="Administrative Domain:"/>
+				<listrowcolumn label="Undefined"/>
+			</listrow>
+			<listrow id="id_profile_name">
+				<listrowcolumn label="Profile Name:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_transport_info">
+			<listrowcolumn label="Transport Information"/>
+			<listrow id="id_protocol">
+				<listrowcolumn label="Protocol:"/>
+				<listrowcolumn label="DTLSv1.2"/>
+			</listrow>
+			<listrow id="id_cipher">
+				<listrowcolumn label="Cipher:"/>
+				<listrowcolumn label="ECDHE_ECDSA_AES256_GCM_SHA384"/>
+			</listrow>
+			<listrow id="id_compression">
+				<listrowcolumn label="Compression:"/>
+				<listrowcolumn label="None"/>
+			</listrow>
+			<listrow id="id_proxy_addr">
+				<listrowcolumn label="Proxy Address:"/>
+				<listrowcolumn label="No Proxy"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_feature_config">
+			<listrowcolumn label="Feature Configuration"/>
+			<listrow id="id_fips_mode">
+				<listrowcolumn label="FIPS Mode:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="id_tnd_mode">
+				<listrowcolumn label="Trusted Network Detection:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+			<listrow id="id_always_on_mode">
+				<listrowcolumn label="Always On:"/>
+				<listrowcolumn label="Disabled"/>
+			</listrow>
+		</listgroup>
+		<listgroup id="group_sms">
+			<listrowcolumn label="Secure Mobility Solution"/>
+			<listrow id="id_secure_mobility_soln_status">
+				<listrowcolumn label="Status:"/>
+				<listrowcolumn label="Unconfirmed"/>
+			</listrow>
+			<listrow id="id_secure_mobility_soln_appl">
+				<listrowcolumn label="Appliance:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="group_vpn">
+			<listrowcolumn label="VPN (Connected)"/>
+			<listrow id="id_bytes_sent">
+				<listrowcolumn label="Bytes Sent: "/>
+				<listrowcolumn label="34213268"/>
+			</listrow>
+			<listrow id="id_bytes_recv">
+				<listrowcolumn label="Bytes Received: "/>
+				<listrowcolumn label="115987738"/>
+			</listrow>
+			<listrow id="id_time_connected">
+				<listrowcolumn label="Time Connected: "/>
+				<listrowcolumn label="01:29:25"/>
+			</listrow>
+			<listrow id="id_session_disconnect">
+				<listrowcolumn label="Session Disconnect: "/>
+				<listrowcolumn label="13 Hours 30 Minutes Remaining"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v4">
+				<listrowcolumn label="Client Address (IPv4): "/>
+				<listrowcolumn label="10.117.19.175"/>
+			</listrow>
+			<listrow id="id_tunnel_mode_v6">
+				<listrowcolumn label="Client Address (IPv6): "/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="id_server_addr">
+				<listrowcolumn label="Server Address: "/>
+				<listrowcolumn label="204.153.60.23"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
